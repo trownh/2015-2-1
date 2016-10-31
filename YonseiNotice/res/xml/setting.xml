@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+		
+    	<PreferenceCategory android:title="공지사항 선택">   	
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_HOME"
+	    	    android:title="연세대학교"
+	    	    android:summary="yonsei.ac.kr"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_CS"
+	    	    android:title="컴퓨터과학과"
+	    	    android:summary="CS.yonsei.ac.kr"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_LIBRARY"
+	    	    android:title="학술정보원"
+	    	    android:summary="library.yonsei.ac.kr"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_ENGINEERING"
+	    	    android:title="공과대학"
+	    	    android:summary="engineering.yonsei.ac.kr"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_ADMISSION"
+	    	    android:title="입학처"
+	    	    android:summary="admission.yonsei.ac.kr"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_SCSC"
+	    	    android:title="SCSC"
+	    	    android:summary="cs.yonsei.ac.kr/scsc"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	<CheckBoxPreference
+	    	    android:key="YONSEI_WONJU"
+	    	    android:title="원주캠퍼스"
+	    	    android:summary="http://www.yonsei.ac.kr/wj"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+		</PreferenceCategory> 
+		
+		<PreferenceCategory android:title="알리미">   	
+	    	<CheckBoxPreference
+	    	    android:key="NOTICE"
+	    	    android:title="알리미 설정여부"
+	    	    android:summary="새로운 공지사항이 올라오면 푸시알림을 합니다"
+	    	    android:defaultValue="true">
+	    	</CheckBoxPreference>
+	    	
+		</PreferenceCategory> 
+		
+		<PreferenceCategory android:title="공지사항 설정">
+		    <Preference
+		        android:key="MAX_NOTICE"
+		        android:title="최대 공지사항 "
+		        android:summary="최대로 보이는 공지사항의 개수를 설정합니다"
+		    ></Preference>
+	    	
+		    <Preference
+		        android:key="RENEW"
+		        android:title="갱신주기 설정"
+		        android:summary="공지사항 갱신시간을 설정합니다"
+		        ></Preference>
+		</PreferenceCategory>
+		
+		<PreferenceCategory android:title="개발팀 정보 및 이메일 보내기">	    			    
+		    <Preference
+		        android:title="팀장 김재성"
+		        android:summary="컴퓨터과학과 2011147107\ntrownh@gmail.com">
+		        <intent
+	            android:action="android.intent.action.SENDTO"
+	            android:data="mailto:trownh@gmail.com"/>		        
+		    </Preference>
+		    <Preference
+		        android:title="팀원 손승우"
+		        android:summary="컴퓨터과학과 2011147006\nseggs@naver.com">
+		        <intent
+	            android:action="android.intent.action.SENDTO"
+	            android:data="mailto:seggs@naver.com"/>		        
+		    </Preference>
+		    <Preference
+		        android:title="팀원 김찬우"
+		        android:summary="컴퓨터과학과 2013147570\nthereon7265@gmail.com">
+		        <intent
+	            android:action="android.intent.action.SENDTO"
+	            android:data="mailto:thereon7265@gmail.com"/>		        
+		    </Preference>
+		    <Preference
+		        android:title="팀원 박주현"
+		        android:summary="컴퓨터과학과 2013147584\njuhyun1849@gmail.com">
+		        <intent
+	            android:action="android.intent.action.SENDTO"
+	            android:data="mailto:juhyun1849@gmail.com"/>		        
+		    </Preference>
+		</PreferenceCategory>
+		
+</PreferenceScreen>

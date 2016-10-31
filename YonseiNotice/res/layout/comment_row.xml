@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView 
+	    android:layout_height="40dip" 
+	    android:layout_width="40dip" 
+	    android:id="@+id/iv_comment"
+	    android:layout_marginLeft="5dp"
+	    android:background="@drawable/silhouette"
+	    android:layout_marginTop="10dip"
+	    android:layout_marginBottom="10dip"/>
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:layout_marginLeft="60dip"
+	    android:layout_marginTop="3dip"
+	    android:textSize="13dip"
+	    android:id="@+id/tv_unknown"
+	    android:text="익명"
+	    />
+	<TextView 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:id="@+id/tv_comment" 
+	    android:layout_marginLeft="60dip"
+	    android:textSize="11dip"
+	    android:layout_marginTop="2dip"
+	    android:text="sgfgdfggdfgdf ㄹ훵루허   ㅁㄴㅇ ㅁ너우 ㅁ  ㄴㅇ ㄹㄴㅇㄹ ㄴ ㄴㅇ ㄴㅇ ㄹ ㄹㄴㅇ ㄹㄴ ㄴ ㄴㅇㄹ ㄴㅇ"
+	    android:layout_below="@+id/tv_unknown"/>
+
+</RelativeLayout>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
